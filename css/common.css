@@ -20,7 +20,7 @@ p a {
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 8px;
-  background-color: #CFCFCF;
+  background-color: #fafafa;
   color: black;
   font-weight: bold;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -28,5 +28,5 @@ p a {
 }
 
 p a:hover {
-  background-color: #dadada;
+  background-color: #e7e7e7;
 }
