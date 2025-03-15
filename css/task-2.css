@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  max-width: 1128px;
+}
+
+.gallery img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
